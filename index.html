@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
@@ -13,31 +14,33 @@
         <a href="./login.html">Login</a>
       </header>
       <main>
-        <div>
+        <div class="searchbar">
           <input type="text" placeholder="City" />
         </div>
-        <a href="./list.html">
+        <div class="city_cards">
+          <a href="./list.html">
+            <img
+              class="city_image"
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+              alt="delhi_image"
+            />
+          </a>
           <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+            alt="goa_image"
             class="city_image"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-            alt="delhi_image"
           />
-        </a>
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-          alt="goa_image"
-          class="city_image"
-        />
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-          alt="hyderabad_image"
-          class="city_image"
-        />
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-          alt="kolkata_image"
-          class="city_image"
-        />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+            alt="hyderabad_image"
+            class="city_image"
+          />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+            alt="kolkata_image"
+            class="city_image"
+          />
+        </div>
         <div>
           <a href="#">View More >> </a>
         </div>

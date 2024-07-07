@@ -1,3 +1,28 @@
+.detail_image_div {
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.detail_form_div {
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.detail_data_div {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.detail_data_div p,
+.detail_data_div h6,
+.detail_data_div ul {
+  margin-top: 1%;
+}
+
 .detail_image {
   height: 500px;
   width: 500px;

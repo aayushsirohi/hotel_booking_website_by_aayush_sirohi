@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/detail.css" />
     <script src="./scripts/detail.js"></script>
   </head>
@@ -21,12 +21,14 @@
         <a href="./login.html">Login</a>
       </header>
       <main>
-        <div>
+        <div class="detail_image_div">
           <img
             src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
             alt="radisson_image"
             class="detail_image"
           />
+        </div>
+          <div class="detail_form_div">
 
           <form onsubmit="handleSubmitBooking(event)">
             <label for="adult">Adult:</label>
@@ -78,12 +80,13 @@
     
             <button type="submit" ">Book Now</button>
           </form>
-
+        </div>
+<div class="detail_data_div">
           <h2>Radisson Blue Hotel</h2>
 
           <p>RATING</p>
           <p>5 Star</p>
-          <p>Amenties</p>
+          <p>AMENTIES</p>
           <ul>
             <li>Room Service</li>
             <li>Restuarant</li>

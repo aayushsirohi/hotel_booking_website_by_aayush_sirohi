@@ -1,0 +1,30 @@
+.payment_div {
+  background-color: rgb(132, 136, 139);
+  width: 50%;
+  height: 20%;
+  margin: 2% auto;
+}
+
+.payment_image {
+  height: 500px;
+  width: 500px;
+}
+
+.payment_info p {
+  margin: 2%;
+}
+
+.payment_total {
+  margin: 2%;
+  border: 1px solid black;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  padding: 1% 2%;
+}
+
+.payment_total p:first-child {
+  margin-bottom: 1%;
+}
