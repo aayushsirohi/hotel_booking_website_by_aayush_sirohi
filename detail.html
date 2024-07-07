@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
+    <script src="./scripts/detail.js"></script>
   </head>
   <body>
     <div>
       <header>
-        <img
-          src="./assests/images/logo.png"
-          height="100"
-          width="150"
-          alt="logo"
-        />
-        <a href="./login.html" target="_blank">Login</a>
+        <a href="./index.html">
+          <img
+            src="./assests/images/logo.png"
+            height="100"
+            width="150"
+            alt="logo"
+          />
+        </a>
+        <a href="./login.html">Login</a>
       </header>
       <main>
         <div>
@@ -22,9 +25,58 @@
             src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
             alt="radisson_image"
           />
-          <div>
-            <a href="./payment.html">Book Now</a>
-          </div>
+
+          <form onsubmit="handleSubmitBooking(event)">
+            <label for="adult">Adult</label>
+            <input
+              type="number"
+              id="adult"
+              name="adult"
+              placeholder=""
+              autocomplete="off"
+              min="1"
+              required
+            /><br />
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder=""
+              autocomplete="off"
+              required
+            /><br />
+            <label for="date_from">Date From</label>
+            <input
+              type="date"
+              id="date_from"
+              name="date_from"
+              placeholder=""
+              autocomplete="off"
+              required
+            /><br />
+            <label for="date_to">Date To</label>
+            <input
+              type="date"
+              id="date_to"
+              name="date_to"
+              placeholder=""
+              autocomplete="off"
+              required
+            /><br />
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              id="amount"
+              name="amount"
+              placeholder=""
+              disabled
+              autocomplete="off"
+            /><br />
+    
+            <button type="submit" ">Book Now</button>
+          </form>
+
           <h2>Radisson Blue Hotel</h2>
 
           <p>RATING</p>
