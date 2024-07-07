@@ -28,3 +28,12 @@
 .payment_total p:first-child {
   margin-bottom: 1%;
 }
+
+.pay_now a {
+  text-decoration: none;
+  color: black;
+}
+
+.pay_now {
+  padding-bottom: 30px;
+}

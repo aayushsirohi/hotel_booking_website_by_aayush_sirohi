@@ -8,3 +8,37 @@
   height: 250px;
   width: 250px;
 }
+
+.list_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.list_main li {
+  list-style: none;
+  padding: 15px 0px;
+}
+
+.list_main a {
+  text-decoration: none;
+
+  color: black;
+}
+
+#list-view {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list_image a p,
+.list_image p {
+  padding-top: 10px;
+}
+
+.list_image a {
+  text-decoration: none;
+  color: black;
+}
